@@ -1,1 +1,5 @@
-client/css linguist-vendored
+*.html linguist-detectable=true
+*.css linguist-detectable=false
+*.php linguist-detectable=true
+*.js linguist-detectable=true
+*.sql linguist-detectable=true
