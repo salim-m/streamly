@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+        <title>Streamly | Account Confirmation</title>
+        <style>
+            body{margin:0;font-family: 'Roboto';background-color: #F3F3F3;}
+            .container{width:70%;margin:0 auto;border-radius:3px;text-align: center;height: 400px;background-color: #fff;border:1px solid #EEEEEE;margin-top:40px;box-shadow: 0px 2px #E3E3E3;}
+            #logo{display: block;max-width: 90px;}
+            #link{border:1px solid #FFB301;background-color: #FFB301;color: #fff;text-decoration: none;margin-bottom:20px;padding:10px 20px;border-radius: 5px;}
+            .header{padding:20px;}
+            p{color: #5F6269;}
+            .content{width: 40vw;margin: 0 auto;}
+        </style>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <img id="logo" src="https://i.ibb.co/fF7MwMD/test.png">
+            </div>
+            <div class="content">
+                <h2>Email Confirmation</h2>
+                <p>Hey %NAME%, you're almost ready to start enjoying Streamly.
+                    Simply click the big yellow button below to verify your email address
+                </p>
+                    <a href="http://salim-streamly.000webhostapp.com/streamlyApi/verify.php?token=%TOKEN%&email=%EMAIL%" id="link" target="_blank">Verify email address</a>
+            </div>
+        </div>
+    </body>
+</html>
